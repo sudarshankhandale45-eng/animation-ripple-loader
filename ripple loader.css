@@ -1,0 +1,83 @@
+body{
+	background-color:black;
+	display:flex;
+	justify-content:center;
+}
+main{
+	height:100%;
+	width:60%;
+	transform:translateY(100px);
+	padding:2rem;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border:1px solid #1A1B1B;
+	border-radius:20px;
+}
+.circle{
+	position:relative;
+	height:450px;
+	width:450px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.circle-1{
+	position:absolute;
+	height:310px;
+	width:310px;
+	background-color:#64646433;
+	background:linear-gradient(0deg, rgba(50, 50, 50, 0.2), rgba(100, 100, 100, 0.2));
+	box-shadow:0px 2px 50px #0000004d,0px 2px 20px #0000004d;
+	border-radius:50%;
+}
+.circle-round{
+	animation:circle-1 0.8s ease-in-out 0.8s infinite alternate;
+}
+@keyframes circle-1{
+	100% {transform:scale(1.1,1.1);}
+}
+.circle-2{
+	height:250px;
+	width:250px;
+	background-color:#64646466;
+	background:linear-gradient(0deg, rgba(50, 50, 50, 0.2), rgba(100, 100, 100, 0.2));
+	box-shadow:0px 2px 50px #0000004d,0px 2px 20px #0000004d;
+	animation:circle-2 0.8s ease-in-out 0.6s infinite alternate;
+}
+@keyframes circle-2{
+	100% {transform:scale(1.1,1.1);}
+}
+.circle-3{
+	height:190px;
+	width:190px;
+	background-color:#64646499;
+	background:linear-gradient(0deg, rgba(50, 50, 50, 0.2), rgba(100, 100, 100, 0.2));
+	box-shadow:0px 2px 50px #0000004d,0px 2px 20px #0000004d;
+	animation:circle-3 0.8s ease-in-out 0.5s infinite alternate;
+}
+@keyframes circle-3{
+	100% {transform:scale(1.1,1.1);}
+}
+.circle-4{
+	height:130px;
+	width:130px;
+	background-color:#646464cc;
+	background:linear-gradient(0deg, rgba(50, 50, 50, 0.2), rgba(100, 100, 100, 0.2));
+	box-shadow:0px 2px 50px #0000004d,0px 2px 20px #0000004d;
+	animation:circle-4 0.8s ease-in-out 0.4s infinite alternate;
+}
+@keyframes circle-4{
+	100% {transform:scale(1.1,1.1);}
+}
+.circle-5{
+	height:60px;
+	width:60px;
+	background: #646464;
+	background:linear-gradient(0deg, rgba(50, 50, 50, 0.2), rgba(100, 100, 100, 0.2));
+	box-shadow:0px 2px 50px #0000004d,0px 2px 20px #0000004d;
+	animation:circle-5 0.8s ease-in-out infinite alternate;
+}
+@keyframes circle-5{
+	100% {transform:scale(1.3,1.3);}
+}
